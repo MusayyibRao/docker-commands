@@ -1,0 +1,69 @@
+1. check the version:
+      docker -v
+
+2. pull image:
+   docker pull imageName
+
+3. check images:
+    docker images
+
+4. Create a container (without starting it):
+    docker create [IMAGE]
+
+5. Rename an existing container:
+   docker rename [CONTAINER_NAME] [NEW_CONTAINER_NAME]
+
+6. Run a command in a new container:
+   docker run [IMAGE] [COMMAND]
+
+7. removes a container after it exits:
+    docker run --rm [IMAGE]
+
+8. starts a container and keeps it running:
+    docker run -td [IMAGE]
+
+9. Delete a container (if it is not running):
+    docker rm [CONTAINER]
+
+10. Update the configuration of one or more containers:
+    docker update [CONTAINER]
+
+11. Start a container:
+    docker start [CONTAINER]
+
+12. Stop a running container:
+     docker stop [CONTAINER]
+
+13. Remove an image:
+    docker rmi [IMAGE]
+
+14. List running containers:
+     docker ps
+
+15. lists both running containers
+     docker ps -a
+
+16. List all images that are locally stored with the docker engine:
+     docke image ls
+
+17. Show the history of an image:
+     docker history [IMAGE]
+
+18. List networks:
+     docker network ls
+
+19. Remove one or more networks:
+     docker network rm [NETWORK]
+
+20.  
+ 
+
+
+
+
+    
+
+
+
+
+
